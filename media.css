@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+
+/* pc ver. */
+
+/* pc ver. */
+@media(max-width:1290px){
+    /* banner */
+    .banner .tab_menu1 .tab_btn1{
+    right: 77%;}
+
+    /* content1 */
+    .content1 .text_box p{opacity: 0;}
+
+    .content1 .text_box {
+    width: 160%;
+    top: 58%;
+    left: 46%;}
+
+    .content1 .prev {
+    top: 62.7%;
+    left: 100%;}
+
+    .content1 .next{
+    top: 62.7%;
+    left: 188%;}
+    
+    .content1 .text_box h3.text_bum{
+    margin-top: 10px;
+    font-size: 48px;}
+
+    .content1 .text_box h3 {
+    font-size: 54px;
+    margin-top: 6px;
+    }
+
+    /* content2 */
+    .content2 .tab_menu2{
+    display: flex;
+    width: 100%;
+    margin-top: 200px;}
+
+    .content2 h4{
+    top: 168px;}
+
+    .content2 .tab_menu2 .tab_con2 div img{
+        width: 125%;
+        margin-top: 60px;
+        margin-left: -125px;
+    }
+
+}
+
+
+/* laptop ver. */
+@media(max-width:1024px){}
+
+
+/* laptop2 ver. */
+@media(max-width:960px){}
+
+
+/* tablet ver. */
+@media(max-width:768px){}
+
+
+/* foldable phone ver. */
+@media(max-width:600px){}
+
+
+/* phone ver. */
+@media(max-width:480px){}
+
+
+/* mini phone ver. */
+@media(max-width:320px){}
